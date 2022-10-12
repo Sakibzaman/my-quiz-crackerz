@@ -14,10 +14,12 @@ const Statistics = () => {
   const stats = useLoaderData().data;
   // console.log("stats", stats);
   return (
-    <div className="container md:p-10">
-      <h1 className="text-4xl mt-3 mb-7 text-amber-500 font-semibold">
-        Statistics
-      </h1>
+    <div className="container flex flex-col justify-center items-center">
+      <div>
+        <h1 className="text-4xl mt-3 mb-12 text-amber-500 font-semibold">
+          Statistics
+        </h1>
+      </div>
       <ResponsiveContainer width={300} height={300}>
         <LineChart data={stats}>
           <Line dataKey="total" stroke="#f59e0b" />
