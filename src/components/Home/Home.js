@@ -4,8 +4,8 @@ import { Link, useLoaderData } from "react-router-dom";
 
 const Home = () => {
   const topics = useLoaderData().data;
-  const { name, id, logo, total } = topics;
-  console.log(topics);
+  //   const { name, id, logo, total } = topics;
+  //   console.log("topics", topics);
   return (
     <div>
       <h1 className="text-amber-500 font-bold text-5xl mt-4">Quiz Master</h1>
@@ -31,7 +31,7 @@ const Home = () => {
 
       <div className="w-auto my-8 md:grid grid-cols-4">
         {topics.map((topic) => (
-          <div className="rounded-xl mx-12 shadow-lg p-3">
+          <div className="rounded-xl mx-12 shadow-2xl p-3">
             <img className="bg-blue-100" src={topic.logo} alt="" />
             <div>
               <p className="text-slate-500 text-left font-semibold">

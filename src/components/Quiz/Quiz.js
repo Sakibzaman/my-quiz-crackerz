@@ -5,7 +5,7 @@ import QuizCard from "../QuizCard/QuizCard";
 const Quiz = () => {
   const { name, id, questions, total } = useLoaderData().data;
 
-  console.log(questions);
+  console.log("questions", questions);
   // quiz.questions.map((question) => console.log(question));
 
   return (
@@ -13,11 +13,6 @@ const Quiz = () => {
       <div>
         <h1 className="text-2xl text-blue-500 font-bold my-6">
           Quiz of {name}
-          <div>
-            {/* {questions.map((question) => (
-              <QuizCard key={id} question={question}></QuizCard>
-            ))} */}
-          </div>
         </h1>
       </div>
       <div></div>

@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <div className="w-10/12 mx-auto text-left my-10 shadow-lg p-6">
+      <div className="w-10/12 mx-auto text-left my-10 shadow-lg p-8">
         <h1 className="text-4xl text-amber-600 font-bold my-4">
           1.What is the purpose of react router?
         </h1>
@@ -20,7 +20,7 @@ const Blog = () => {
           page while maintaining the correct view of the application.
         </p>
       </div>
-      <div className="w-10/12 mx-auto text-left my-10 shadow-lg p-6">
+      <div className="w-10/12 mx-auto text-left my-10 shadow-lg p-8">
         <h1 className="text-4xl text-amber-600 font-bold my-4">
           2.How does Context API work?
         </h1>
@@ -39,7 +39,7 @@ const Blog = () => {
           state.
         </p>
       </div>
-      <div className="w-10/12 mx-auto text-left my-10 shadow-lg p-6">
+      <div className="w-10/12 mx-auto text-left my-10 shadow-lg p-8">
         <h1 className="text-4xl text-amber-600 font-bold my-4">
           3.What is useRef hook in react?
         </h1>
