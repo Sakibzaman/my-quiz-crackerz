@@ -1,4 +1,4 @@
-# Quiz Master : [Live Site Link]().
+# Quiz Master : [Live Site Link](https://quiz-master-sakibzaman.netlify.app/).
 
 ---
 
