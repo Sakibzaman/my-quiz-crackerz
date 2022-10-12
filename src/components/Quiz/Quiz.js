@@ -12,7 +12,7 @@ const Quiz = () => {
   return (
     <div>
       <div>
-        <h1 className="text-2xl text-blue-500 font-bold my-6">
+        <h1 className="text-2xl text-amber-600 font-bold my-6">
           Quiz of {name}
         </h1>
         <div>
